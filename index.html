@@ -10,6 +10,21 @@
             margin: 0;
             padding: 0;
             background-color: #f5699d;
+            animation: bgChange 3s infinite alternate;
+        }
+
+        @keyframes bgChange {
+            0% {
+                background-color: #F5699D;
+            }
+
+            50% {
+                background-color: #ffffff;
+            }
+
+            100% {
+                background-color: #F5699D;
+            }
         }
 
         div {
@@ -19,7 +34,7 @@
             transform: translate(-50%, -50%);
         }
 
-        div a img { 
+        div a img {
             max-width: 100%;
         }
     </style>
